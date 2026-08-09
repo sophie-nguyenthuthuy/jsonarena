@@ -1,0 +1,47 @@
+name: Rebuild leaderboard
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - "README.md"
+      - "RESULTS.md"
+      - "results/**"
+  schedule:
+    - cron: "0 5 * * 1" # Mondays 05:00 UTC — catches upstream releases
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: leaderboard
+  cancel-in-progress: false
+
+jobs:
+  bench-and-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install jsonarena + all entry packages
+        run: |
+          pip install -e .
+          pip install $(jsonarena deps)
+      - name: Full benchmark
+        run: jsonarena bench
+      - name: Rebuild README + RESULTS.md
+        run: jsonarena render
+      - name: Commit leaderboard
+        run: |
+          git config user.name "jsonarena-bot"
+          git config user.email "actions@github.com"
+          git add README.md RESULTS.md results/results.json
+          if git diff --cached --quiet; then
+            echo "leaderboard unchanged"
+          else
+            git commit -m "chore: rebuild leaderboard [skip ci]"
+            git push
+          fi

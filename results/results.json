@@ -1,0 +1,180 @@
+{
+  "meta": {
+    "timestamp": "2026-08-09T02:47:16+00:00",
+    "python": "3.13.9",
+    "platform": "Darwin arm64",
+    "repeats": 10
+  },
+  "datasets": {
+    "numbers": {
+      "bytes": 790772
+    },
+    "structs": {
+      "bytes": 733031
+    },
+    "strings": {
+      "bytes": 614481
+    },
+    "mixed": {
+      "bytes": 4575084
+    }
+  },
+  "libraries": [
+    {
+      "name": "msgspec",
+      "repo": "https://github.com/jcrist/msgspec",
+      "language": "C",
+      "baseline": false,
+      "version": "0.21.1",
+      "benchmarks": {
+        "numbers": {
+          "parse_s": 0.0042427085,
+          "serialize_s": 0.002538812
+        },
+        "structs": {
+          "parse_s": 0.0035100835,
+          "serialize_s": 0.0010529375
+        },
+        "strings": {
+          "parse_s": 0.0018275625,
+          "serialize_s": 0.000233938
+        },
+        "mixed": {
+          "parse_s": 0.0516778755,
+          "serialize_s": 0.0135581455
+        }
+      },
+      "status": "ok"
+    },
+    {
+      "name": "orjson",
+      "repo": "https://github.com/ijl/orjson",
+      "language": "Rust",
+      "baseline": false,
+      "version": "3.11.9",
+      "benchmarks": {
+        "numbers": {
+          "parse_s": 0.003974229,
+          "serialize_s": 0.0013308335
+        },
+        "structs": {
+          "parse_s": 0.0032632705,
+          "serialize_s": 0.000830396
+        },
+        "strings": {
+          "parse_s": 0.0028387705,
+          "serialize_s": 0.0001089375
+        },
+        "mixed": {
+          "parse_s": 0.0567555415,
+          "serialize_s": 0.009468375
+        }
+      },
+      "status": "ok"
+    },
+    {
+      "name": "python-rapidjson",
+      "repo": "https://github.com/python-rapidjson/python-rapidjson",
+      "language": "C++",
+      "baseline": false,
+      "version": "1.23",
+      "benchmarks": {
+        "numbers": {
+          "parse_s": 0.0060940625,
+          "serialize_s": 0.0137488955
+        },
+        "structs": {
+          "parse_s": 0.0063180415,
+          "serialize_s": 0.003443792
+        },
+        "strings": {
+          "parse_s": 0.0051758545,
+          "serialize_s": 0.002731229
+        },
+        "mixed": {
+          "parse_s": 0.081939229,
+          "serialize_s": 0.031933229
+        }
+      },
+      "status": "ok"
+    },
+    {
+      "name": "simplejson",
+      "repo": "https://github.com/simplejson/simplejson",
+      "language": "C",
+      "baseline": false,
+      "version": "4.1.1",
+      "benchmarks": {
+        "numbers": {
+          "parse_s": 0.008366917,
+          "serialize_s": 0.0226914375
+        },
+        "structs": {
+          "parse_s": 0.0069604375,
+          "serialize_s": 0.0107941665
+        },
+        "strings": {
+          "parse_s": 0.002043875,
+          "serialize_s": 0.0009157915
+        },
+        "mixed": {
+          "parse_s": 0.1023152505,
+          "serialize_s": 0.1307975415
+        }
+      },
+      "status": "ok"
+    },
+    {
+      "name": "json (stdlib)",
+      "repo": "https://github.com/python/cpython",
+      "language": "C",
+      "baseline": true,
+      "version": "py3.13",
+      "benchmarks": {
+        "numbers": {
+          "parse_s": 0.006624354,
+          "serialize_s": 0.015045125
+        },
+        "structs": {
+          "parse_s": 0.0057156665,
+          "serialize_s": 0.0062018335
+        },
+        "strings": {
+          "parse_s": 0.0022354585,
+          "serialize_s": 0.001332708
+        },
+        "mixed": {
+          "parse_s": 0.0879928545,
+          "serialize_s": 0.048720708
+        }
+      },
+      "status": "ok"
+    },
+    {
+      "name": "ujson",
+      "repo": "https://github.com/ultrajson/ultrajson",
+      "language": "C",
+      "baseline": false,
+      "version": "5.13.0",
+      "benchmarks": {
+        "numbers": {
+          "parse_s": 0.0056401245,
+          "serialize_s": 0.006774
+        },
+        "structs": {
+          "parse_s": 0.004687354,
+          "serialize_s": 0.0047137295
+        },
+        "strings": {
+          "parse_s": 0.0017467085,
+          "serialize_s": 0.002494521
+        },
+        "mixed": {
+          "parse_s": 0.0536928545,
+          "serialize_s": 0.0363941455
+        }
+      },
+      "status": "ok"
+    }
+  ]
+}

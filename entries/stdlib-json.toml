@@ -1,0 +1,6 @@
+name = "json (stdlib)"
+adapter = "jsonarena.adapters.stdlib_json"
+repo = "https://github.com/python/cpython"
+language = "C"
+notes = "Baseline. Ships with Python."
+baseline = true

@@ -1,0 +1,6 @@
+name = "ujson"
+package = "ujson"
+adapter = "jsonarena.adapters.ujson_"
+repo = "https://github.com/ultrajson/ultrajson"
+language = "C"
+notes = "Long-standing C accelerator; float precision capped at 10 digits by default."

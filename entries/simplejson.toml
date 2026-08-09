@@ -1,0 +1,6 @@
+name = "simplejson"
+package = "simplejson"
+adapter = "jsonarena.adapters.simplejson_"
+repo = "https://github.com/simplejson/simplejson"
+language = "C"
+notes = "The original externally-maintained json; C speedups when available."

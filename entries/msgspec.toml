@@ -1,0 +1,6 @@
+name = "msgspec"
+package = "msgspec"
+adapter = "jsonarena.adapters.msgspec_"
+repo = "https://github.com/jcrist/msgspec"
+language = "C"
+notes = "Reusable Encoder/Decoder instances, zero-copy oriented."

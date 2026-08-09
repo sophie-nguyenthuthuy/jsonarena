@@ -1,0 +1,37 @@
+name: PR benchmark
+
+on:
+  pull_request:
+
+jobs:
+  bench:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install jsonarena + all entry packages
+        run: |
+          pip install -e . pytest
+          deps=$(jsonarena deps)
+          echo "installing: $deps"
+          pip install $deps
+      - name: Validate entries
+        run: jsonarena validate
+      - name: Tests (contract + correctness for every entry)
+        run: pytest -q
+      - name: Quick benchmark
+        run: jsonarena bench --quick
+      - name: Leaderboard preview in job summary
+        run: |
+          jsonarena render
+          {
+            echo "## Leaderboard preview (quick run, CI hardware — final table is rebuilt on merge)"
+            echo
+            sed -n '/<!-- LEADERBOARD:START -->/,/<!-- LEADERBOARD:END -->/p' README.md
+          } >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: results
+          path: results/results.json

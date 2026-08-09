@@ -1,0 +1,6 @@
+name = "python-rapidjson"
+package = "python-rapidjson"
+adapter = "jsonarena.adapters.rapidjson_"
+repo = "https://github.com/python-rapidjson/python-rapidjson"
+language = "C++"
+notes = "Bindings to Tencent RapidJSON."

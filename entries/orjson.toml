@@ -1,0 +1,6 @@
+name = "orjson"
+package = "orjson"
+adapter = "jsonarena.adapters.orjson_"
+repo = "https://github.com/ijl/orjson"
+language = "Rust"
+notes = "dumps returns bytes; strict UTF-8 and float handling."
