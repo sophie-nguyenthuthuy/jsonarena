@@ -1,6 +1,6 @@
 {
   "meta": {
-    "timestamp": "2026-08-10T06:08:23+00:00",
+    "timestamp": "2026-08-17T05:30:55+00:00",
     "python": "3.12.13",
     "platform": "Linux x86_64",
     "repeats": 10
@@ -28,20 +28,20 @@
       "version": "0.21.1",
       "benchmarks": {
         "numbers": {
-          "parse_s": 0.006570924,
-          "serialize_s": 0.0035340375
+          "parse_s": 0.006906863,
+          "serialize_s": 0.0035035375
         },
         "structs": {
-          "parse_s": 0.0057051985,
-          "serialize_s": 0.0015924705
+          "parse_s": 0.0056007885,
+          "serialize_s": 0.0015909675
         },
         "strings": {
-          "parse_s": 0.00262568,
-          "serialize_s": 0.000299938
+          "parse_s": 0.0026703285,
+          "serialize_s": 0.000292182
         },
         "mixed": {
-          "parse_s": 0.0986637545,
-          "serialize_s": 0.0167327715
+          "parse_s": 0.0841393305,
+          "serialize_s": 0.0163109655
         }
       },
       "status": "ok"
@@ -51,23 +51,23 @@
       "repo": "https://github.com/ijl/orjson",
       "language": "Rust",
       "baseline": false,
-      "version": "3.11.9",
+      "version": "3.12.0",
       "benchmarks": {
         "numbers": {
-          "parse_s": 0.005485876,
-          "serialize_s": 0.0022213015
+          "parse_s": 0.005515344,
+          "serialize_s": 0.0019947385
         },
         "structs": {
-          "parse_s": 0.005496226,
-          "serialize_s": 0.001087552
+          "parse_s": 0.0054431035,
+          "serialize_s": 0.001261276
         },
         "strings": {
-          "parse_s": 0.0034053445,
-          "serialize_s": 0.000112982
+          "parse_s": 0.003374467,
+          "serialize_s": 0.0001002325
         },
         "mixed": {
-          "parse_s": 0.097016226,
-          "serialize_s": 0.013096303
+          "parse_s": 0.090193905,
+          "serialize_s": 0.013622375
         }
       },
       "status": "ok"
@@ -80,20 +80,20 @@
       "version": "1.23",
       "benchmarks": {
         "numbers": {
-          "parse_s": 0.0094741955,
-          "serialize_s": 0.023737986
+          "parse_s": 0.0094174305,
+          "serialize_s": 0.0236058955
         },
         "structs": {
-          "parse_s": 0.0097481905,
-          "serialize_s": 0.0058208255
+          "parse_s": 0.009666557,
+          "serialize_s": 0.0059122965
         },
         "strings": {
-          "parse_s": 0.006259098,
-          "serialize_s": 0.002716301
+          "parse_s": 0.0063049675,
+          "serialize_s": 0.0027885465
         },
         "mixed": {
-          "parse_s": 0.13549904,
-          "serialize_s": 0.0537229335
+          "parse_s": 0.1221016535,
+          "serialize_s": 0.0529230415
         }
       },
       "status": "ok"
@@ -106,20 +106,20 @@
       "version": "4.1.1",
       "benchmarks": {
         "numbers": {
-          "parse_s": 0.0122303385,
-          "serialize_s": 0.045766123
+          "parse_s": 0.012343946,
+          "serialize_s": 0.0445799275
         },
         "structs": {
-          "parse_s": 0.0109724445,
-          "serialize_s": 0.0205919095
+          "parse_s": 0.010850464,
+          "serialize_s": 0.01999061
         },
         "strings": {
-          "parse_s": 0.002212173,
-          "serialize_s": 0.0009731745
+          "parse_s": 0.0022095975,
+          "serialize_s": 0.0009752665
         },
         "mixed": {
-          "parse_s": 0.143656535,
-          "serialize_s": 0.219322132
+          "parse_s": 0.1254866115,
+          "serialize_s": 0.2076936375
         }
       },
       "status": "ok"
@@ -132,20 +132,20 @@
       "version": "py3.12",
       "benchmarks": {
         "numbers": {
-          "parse_s": 0.0112618615,
-          "serialize_s": 0.0256355465
+          "parse_s": 0.011372325,
+          "serialize_s": 0.0252678805
         },
         "structs": {
-          "parse_s": 0.0096071145,
-          "serialize_s": 0.0100311925
+          "parse_s": 0.009451829,
+          "serialize_s": 0.009720048
         },
         "strings": {
-          "parse_s": 0.0024897835,
-          "serialize_s": 0.0017649345
+          "parse_s": 0.002487448,
+          "serialize_s": 0.0017701885
         },
         "mixed": {
-          "parse_s": 0.1348718685,
-          "serialize_s": 0.0758321785
+          "parse_s": 0.1203426265,
+          "serialize_s": 0.0739296045
         }
       },
       "status": "ok"
@@ -158,20 +158,20 @@
       "version": "5.13.0",
       "benchmarks": {
         "numbers": {
-          "parse_s": 0.007639093,
-          "serialize_s": 0.010079368
+          "parse_s": 0.007492633,
+          "serialize_s": 0.0100117235
         },
         "structs": {
-          "parse_s": 0.007676127,
-          "serialize_s": 0.007000837
+          "parse_s": 0.0074630165,
+          "serialize_s": 0.007016888
         },
         "strings": {
-          "parse_s": 0.0021336625,
-          "serialize_s": 0.0030855685
+          "parse_s": 0.0021422925,
+          "serialize_s": 0.0030733635
         },
         "mixed": {
-          "parse_s": 0.097751997,
-          "serialize_s": 0.053792438
+          "parse_s": 0.0855499505,
+          "serialize_s": 0.0543182775
         }
       },
       "status": "ok"
