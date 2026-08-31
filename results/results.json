@@ -1,6 +1,6 @@
 {
   "meta": {
-    "timestamp": "2026-08-24T05:33:46+00:00",
+    "timestamp": "2026-08-31T11:18:37+00:00",
     "python": "3.12.14",
     "platform": "Linux x86_64",
     "repeats": 10
@@ -28,20 +28,20 @@
       "version": "0.21.1",
       "benchmarks": {
         "numbers": {
-          "parse_s": 0.0076158905,
-          "serialize_s": 0.0038546675
+          "parse_s": 0.0069168585,
+          "serialize_s": 0.003535784
         },
         "structs": {
-          "parse_s": 0.0060261005,
-          "serialize_s": 0.0016236105
+          "parse_s": 0.005722706,
+          "serialize_s": 0.0015954845
         },
         "strings": {
-          "parse_s": 0.0028985925,
-          "serialize_s": 0.0003075135
+          "parse_s": 0.0026385235,
+          "serialize_s": 0.000294913
         },
         "mixed": {
-          "parse_s": 0.102129417,
-          "serialize_s": 0.019131997
+          "parse_s": 0.0909716515,
+          "serialize_s": 0.016649467
         }
       },
       "status": "ok"
@@ -54,20 +54,20 @@
       "version": "3.12.0",
       "benchmarks": {
         "numbers": {
-          "parse_s": 0.005876197,
-          "serialize_s": 0.002002726
+          "parse_s": 0.0054592025,
+          "serialize_s": 0.0020094045
         },
         "structs": {
-          "parse_s": 0.005584572,
-          "serialize_s": 0.0012759675
+          "parse_s": 0.005349557,
+          "serialize_s": 0.00123313
         },
         "strings": {
-          "parse_s": 0.0038583885,
-          "serialize_s": 8.9198e-05
+          "parse_s": 0.003379376,
+          "serialize_s": 9.9536e-05
         },
         "mixed": {
-          "parse_s": 0.1071241145,
-          "serialize_s": 0.0160305375
+          "parse_s": 0.091242824,
+          "serialize_s": 0.013687728
         }
       },
       "status": "ok"
@@ -80,20 +80,20 @@
       "version": "1.23",
       "benchmarks": {
         "numbers": {
-          "parse_s": 0.009558467,
-          "serialize_s": 0.023565027
+          "parse_s": 0.009534623,
+          "serialize_s": 0.0234683415
         },
         "structs": {
-          "parse_s": 0.0094900855,
-          "serialize_s": 0.005724636
+          "parse_s": 0.009591189,
+          "serialize_s": 0.0057920515
         },
         "strings": {
-          "parse_s": 0.0071247535,
-          "serialize_s": 0.002653702
+          "parse_s": 0.0062292055,
+          "serialize_s": 0.002726182
         },
         "mixed": {
-          "parse_s": 0.1471254925,
-          "serialize_s": 0.054116196
+          "parse_s": 0.1238755515,
+          "serialize_s": 0.053324255
         }
       },
       "status": "ok"
@@ -103,23 +103,23 @@
       "repo": "https://github.com/simplejson/simplejson",
       "language": "C",
       "baseline": false,
-      "version": "4.1.1",
+      "version": "4.1.2",
       "benchmarks": {
         "numbers": {
-          "parse_s": 0.012299394,
-          "serialize_s": 0.0446981785
+          "parse_s": 0.0128497385,
+          "serialize_s": 0.0458971015
         },
         "structs": {
-          "parse_s": 0.0103152255,
-          "serialize_s": 0.0202502595
+          "parse_s": 0.010497504,
+          "serialize_s": 0.0206377735
         },
         "strings": {
-          "parse_s": 0.0024657065,
-          "serialize_s": 0.0010564205
+          "parse_s": 0.0021975405,
+          "serialize_s": 0.0009855355
         },
         "mixed": {
-          "parse_s": 0.153990591,
-          "serialize_s": 0.2287245165
+          "parse_s": 0.136024123,
+          "serialize_s": 0.2236025085
         }
       },
       "status": "ok"
@@ -132,20 +132,20 @@
       "version": "py3.12",
       "benchmarks": {
         "numbers": {
-          "parse_s": 0.010859493,
-          "serialize_s": 0.0246607505
+          "parse_s": 0.0113437295,
+          "serialize_s": 0.025587325
         },
         "structs": {
-          "parse_s": 0.009337458,
-          "serialize_s": 0.0095443815
+          "parse_s": 0.0096216995,
+          "serialize_s": 0.0095708845
         },
         "strings": {
-          "parse_s": 0.002762334,
-          "serialize_s": 0.0020693655
+          "parse_s": 0.0024853395,
+          "serialize_s": 0.001787743
         },
         "mixed": {
-          "parse_s": 0.1477407015,
-          "serialize_s": 0.075363557
+          "parse_s": 0.1396462065,
+          "serialize_s": 0.073598982
         }
       },
       "status": "ok"
@@ -158,20 +158,20 @@
       "version": "5.13.0",
       "benchmarks": {
         "numbers": {
-          "parse_s": 0.008072492,
-          "serialize_s": 0.010487177
+          "parse_s": 0.0076219295,
+          "serialize_s": 0.0101743595
         },
         "structs": {
-          "parse_s": 0.0074976695,
-          "serialize_s": 0.0071327055
+          "parse_s": 0.00748903,
+          "serialize_s": 0.0073180055
         },
         "strings": {
-          "parse_s": 0.002523413,
-          "serialize_s": 0.0032199565
+          "parse_s": 0.002141946,
+          "serialize_s": 0.002963455
         },
         "mixed": {
-          "parse_s": 0.103055883,
-          "serialize_s": 0.0547416245
+          "parse_s": 0.096846225,
+          "serialize_s": 0.0565009565
         }
       },
       "status": "ok"
