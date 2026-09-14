@@ -1,6 +1,6 @@
 # Full results
 
-Python 3.12.14 · Linux x86_64 · 2026-09-07T09:54:36+00:00 · median of 10 runs
+Python 3.12.14 · Linux x86_64 · 2026-09-14T10:16:34+00:00 · median of 10 runs
 
 ## Datasets
 
@@ -15,23 +15,23 @@ Python 3.12.14 · Linux x86_64 · 2026-09-07T09:54:36+00:00 · median of 10 runs
 
 | Library | numbers | structs | strings | mixed |
 |---------|---:|---:|---:|---:|
-| msgspec | 6.98 | 5.66 | 2.61 | 89.88 |
-| orjson | 5.69 | 5.32 | 3.37 | 92.36 |
-| python-rapidjson | 9.47 | 9.38 | 6.22 | 131.83 |
-| simplejson | 12.76 | 10.40 | 2.19 | 132.28 |
-| json (stdlib) | 11.19 | 9.41 | 2.48 | 127.37 |
-| ujson | 7.55 | 7.23 | 2.28 | 85.27 |
+| msgspec | 6.54 | 5.72 | 2.62 | 89.98 |
+| orjson | 5.42 | 5.48 | 3.38 | 94.27 |
+| python-rapidjson | 9.44 | 9.54 | 6.28 | 134.29 |
+| simplejson | 12.77 | 10.56 | 2.19 | 137.16 |
+| json (stdlib) | 11.35 | 9.67 | 2.48 | 128.39 |
+| ujson | 7.57 | 7.29 | 2.26 | 93.24 |
 
 ## Serialize (ms, lower is better)
 
 | Library | numbers | structs | strings | mixed |
 |---------|---:|---:|---:|---:|
-| msgspec | 3.52 | 1.58 | 0.29 | 16.19 |
-| orjson | 2.09 | 1.24 | 0.10 | 13.72 |
-| python-rapidjson | 23.68 | 5.72 | 2.76 | 53.46 |
-| simplejson | 45.49 | 20.43 | 0.98 | 217.00 |
-| json (stdlib) | 25.46 | 9.60 | 1.78 | 73.22 |
-| ujson | 8.36 | 5.51 | 2.78 | 46.89 |
+| msgspec | 3.50 | 1.58 | 0.30 | 16.38 |
+| orjson | 2.00 | 1.25 | 0.10 | 13.93 |
+| python-rapidjson | 24.81 | 5.73 | 2.80 | 52.89 |
+| simplejson | 45.66 | 20.45 | 0.98 | 220.49 |
+| json (stdlib) | 26.23 | 9.80 | 1.81 | 73.61 |
+| ujson | 8.53 | 5.46 | 2.76 | 47.08 |
 
 ## Excluded
 

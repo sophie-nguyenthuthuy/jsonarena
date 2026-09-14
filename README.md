@@ -7,14 +7,14 @@
 <!-- LEADERBOARD:START -->
 | Rank | Library | Version | Lang | Parse | Serialize | Overall |
 |-----:|---------|---------|------|------:|----------:|--------:|
-| 🥇 | [orjson](https://github.com/ijl/orjson) | 3.12.0 | Rust | 1.37× | 9.72× | **3.65×** |
-| 🥈 | [msgspec](https://github.com/jcrist/msgspec) | 0.21.1 | C | 1.38× | 5.89× | **2.85×** |
-| 🥉 | [ujson](https://github.com/ultrajson/ultrajson) | 6.0.0 | C | 1.33× | 1.52× | **1.42×** |
+| 🥇 | [orjson](https://github.com/ijl/orjson) | 3.12.0 | Rust | 1.39× | 10.00× | **3.73×** |
+| 🥈 | [msgspec](https://github.com/jcrist/msgspec) | 0.21.1 | C | 1.41× | 5.94× | **2.89×** |
+| 🥉 | [ujson](https://github.com/ultrajson/ultrajson) | 6.0.0 | C | 1.32× | 1.54× | **1.42×** |
 | 4 | [json (stdlib)](https://github.com/python/cpython) | py3.12 | C | 1.00× | 1.00× | **1.00×** |
-| 5 | [python-rapidjson](https://github.com/python-rapidjson/python-rapidjson) | 1.25 | C++ | 0.82× | 1.12× | **0.96×** |
-| 6 | [simplejson](https://github.com/simplejson/simplejson) | 4.1.2 | C | 0.96× | 0.63× | **0.78×** |
+| 5 | [python-rapidjson](https://github.com/python-rapidjson/python-rapidjson) | 1.25 | C++ | 0.82× | 1.13× | **0.96×** |
+| 6 | [simplejson](https://github.com/simplejson/simplejson) | 4.1.2 | C | 0.96× | 0.64× | **0.79×** |
 
-*Speed relative to the stdlib baseline (higher is better), geometric mean over 4 datasets. Python 3.12.14, Linux x86_64, 2026-09-07T09:54:36+00:00. Full numbers in [RESULTS.md](RESULTS.md).*
+*Speed relative to the stdlib baseline (higher is better), geometric mean over 4 datasets. Python 3.12.14, Linux x86_64, 2026-09-14T10:16:34+00:00. Full numbers in [RESULTS.md](RESULTS.md).*
 <!-- LEADERBOARD:END -->
 
 ## How it works

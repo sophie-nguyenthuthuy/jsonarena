@@ -1,6 +1,6 @@
 {
   "meta": {
-    "timestamp": "2026-09-07T09:54:36+00:00",
+    "timestamp": "2026-09-14T10:16:34+00:00",
     "python": "3.12.14",
     "platform": "Linux x86_64",
     "repeats": 10
@@ -28,20 +28,20 @@
       "version": "0.21.1",
       "benchmarks": {
         "numbers": {
-          "parse_s": 0.0069800725,
-          "serialize_s": 0.003515361
+          "parse_s": 0.006540555,
+          "serialize_s": 0.0035039195
         },
         "structs": {
-          "parse_s": 0.0056570885,
-          "serialize_s": 0.001582728
+          "parse_s": 0.0057203615,
+          "serialize_s": 0.001580927
         },
         "strings": {
-          "parse_s": 0.0026130585,
-          "serialize_s": 0.000294017
+          "parse_s": 0.00262157,
+          "serialize_s": 0.0003034385
         },
         "mixed": {
-          "parse_s": 0.0898794785,
-          "serialize_s": 0.016192963
+          "parse_s": 0.089978521,
+          "serialize_s": 0.016383511
         }
       },
       "status": "ok"
@@ -54,20 +54,20 @@
       "version": "3.12.0",
       "benchmarks": {
         "numbers": {
-          "parse_s": 0.0056943325,
-          "serialize_s": 0.0020930415
+          "parse_s": 0.0054172035,
+          "serialize_s": 0.0020011625
         },
         "structs": {
-          "parse_s": 0.0053169865,
-          "serialize_s": 0.0012413375
+          "parse_s": 0.005478237,
+          "serialize_s": 0.0012474475
         },
         "strings": {
-          "parse_s": 0.0033678165,
-          "serialize_s": 9.9951e-05
+          "parse_s": 0.0033769235,
+          "serialize_s": 9.82375e-05
         },
         "mixed": {
-          "parse_s": 0.0923634805,
-          "serialize_s": 0.0137221745
+          "parse_s": 0.0942687325,
+          "serialize_s": 0.013926222
         }
       },
       "status": "ok"
@@ -80,20 +80,20 @@
       "version": "1.25",
       "benchmarks": {
         "numbers": {
-          "parse_s": 0.0094721845,
-          "serialize_s": 0.023677773
+          "parse_s": 0.0094368225,
+          "serialize_s": 0.024814757
         },
         "structs": {
-          "parse_s": 0.0093827255,
-          "serialize_s": 0.00571846
+          "parse_s": 0.009538601,
+          "serialize_s": 0.0057327455
         },
         "strings": {
-          "parse_s": 0.0062245535,
-          "serialize_s": 0.002760245
+          "parse_s": 0.0062822515,
+          "serialize_s": 0.002800613
         },
         "mixed": {
-          "parse_s": 0.1318250435,
-          "serialize_s": 0.0534649855
+          "parse_s": 0.1342908415,
+          "serialize_s": 0.0528942845
         }
       },
       "status": "ok"
@@ -106,20 +106,20 @@
       "version": "4.1.2",
       "benchmarks": {
         "numbers": {
-          "parse_s": 0.012761609,
-          "serialize_s": 0.0454949785
+          "parse_s": 0.0127666635,
+          "serialize_s": 0.0456648735
         },
         "structs": {
-          "parse_s": 0.010398524,
-          "serialize_s": 0.020429418
+          "parse_s": 0.010556748,
+          "serialize_s": 0.020449983
         },
         "strings": {
-          "parse_s": 0.0021931575,
-          "serialize_s": 0.000978118
+          "parse_s": 0.0021940365,
+          "serialize_s": 0.0009764695
         },
         "mixed": {
-          "parse_s": 0.132283057,
-          "serialize_s": 0.2170022005
+          "parse_s": 0.137160267,
+          "serialize_s": 0.2204949335
         }
       },
       "status": "ok"
@@ -132,20 +132,20 @@
       "version": "py3.12",
       "benchmarks": {
         "numbers": {
-          "parse_s": 0.011191968,
-          "serialize_s": 0.0254591675
+          "parse_s": 0.0113524955,
+          "serialize_s": 0.0262296855
         },
         "structs": {
-          "parse_s": 0.009408873,
-          "serialize_s": 0.009596031
+          "parse_s": 0.00967159,
+          "serialize_s": 0.0097980215
         },
         "strings": {
-          "parse_s": 0.0024812415,
-          "serialize_s": 0.0017793375
+          "parse_s": 0.002483877,
+          "serialize_s": 0.0018072115
         },
         "mixed": {
-          "parse_s": 0.127374211,
-          "serialize_s": 0.073216604
+          "parse_s": 0.1283881145,
+          "serialize_s": 0.0736050785
         }
       },
       "status": "ok"
@@ -158,20 +158,20 @@
       "version": "6.0.0",
       "benchmarks": {
         "numbers": {
-          "parse_s": 0.007553382,
-          "serialize_s": 0.0083626935
+          "parse_s": 0.007570164,
+          "serialize_s": 0.008532728
         },
         "structs": {
-          "parse_s": 0.0072308435,
-          "serialize_s": 0.0055096015
+          "parse_s": 0.0072896735,
+          "serialize_s": 0.0054631995
         },
         "strings": {
-          "parse_s": 0.0022808595,
-          "serialize_s": 0.0027778215
+          "parse_s": 0.002257401,
+          "serialize_s": 0.002762768
         },
         "mixed": {
-          "parse_s": 0.085266638,
-          "serialize_s": 0.04688965
+          "parse_s": 0.093244726,
+          "serialize_s": 0.0470839
         }
       },
       "status": "ok"
